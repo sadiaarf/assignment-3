@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey</title>
-    <!-- favicon -->
-    <link rel="shortcut icon" href="Images/download.png" type="image/x-icon">
-    <!-- daisyui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- manroope font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<!-- font awesome cdn -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- tailwind custom color -->
-<script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockey</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="Images/download.png" type="image/x-icon">
+  <!-- daisyui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- manroope font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- tailwind custom color -->
+  <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -28,94 +35,204 @@
     }
   </script>
 </head>
-<body class="font-manrope">
-    <header>
-    </header>
-    <main>
-      <!-- banner section -->
-<section>
-  <div class="my-14 flex relative">
-    <button class="btn btn rounded-full bg-black"><i class="text-white fa-solid fa-angle-left"></i></button>
-      <button class="btn btn rounded-full bg-black"><i class="text-white fa-solid fa-angle-right"></i></button>
-      <div class="">
-        <div class="bg-no-repeat rounded-lg ml-44"
-        style="background-image: url('./Images/banner.png'); width: 950px; height: 400px;">
+
+<body class="font-manrope p-20">
+  <header>
+  </header>
+  <main>
+    <!-- banner section -->
+    <section>
+      <div class="my-14 flex relative">
+        <button class="btn btn rounded-full bg-black"><i class="text-white fa-solid fa-angle-left"></i></button>
+        <button class="btn btn rounded-full bg-black"><i class="text-white fa-solid fa-angle-right"></i></button>
+        <div class="">
+          <div class="bg-no-repeat rounded-lg ml-44"
+            style="background-image: url('./Images/banner.png'); width: 950px; height: 400px;">
+          </div>
         </div>
-    </div>
-  <!-- <div class="my-14 flex relative">
+        <!-- <div class="my-14 flex relative">
   <div class="bg-no-repeat rounded-lg ml-44"
   style="background-image: url('./Images/banner.png'); width: 950px; height: 400px;">
   </div> -->
 
-  <div class="rounded-md p-3 h-24 w-96 absolute -mt-28 md:bg-black">  
-    <h3 class="text-lg font-bold text-slate-100">Meet all the heroes from the field</h3>
-    <p class="text-base text-slate-400">The game has many rules that need to be followed by each team so that a fair play can be conducted. </p>
-  </div>
-  </div>
-</section>
-<section class="my-24">
-  <div>
-    <h2 class="text-2xl font-bold text-black text-center">Professional Hockeys Club</h2>
-    <p class="text-[#131318d9] text-center">There are different varieties of this game played across the globe. But, the basic<br>rules remain the same at all places.</p>
-  </div>
-  <div>
-    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar"><span class=" text-lg text-black font-bold">87%</span>
-  </div>
+        <div class="rounded-md p-3 h-24 w-96 absolute -mt-28 md:bg-black">
+          <h3 class="text-lg font-bold text-slate-100">Meet all the heroes from the field</h3>
+          <p class="text-base text-slate-400">The game has many rules that need to be followed by each team so that a
+            fair play can be conducted. </p>
+        </div>
+      </div>
+    </section>
+    <!-- Professional Hockeys Club -->
+    <section class="my-24">
+      <div class="py-20">
+        <h2 class="text-2xl py-5 font-bold text-black text-center">Professional Hockeys Club</h2>
+        <p class=" text-slate-400 text-center">There are different varieties of this game played across the globe. But,
+          the basic<br>rules remain the same at all places.</p>
+      </div>
 
-   
-    <div class="radial-progress text-sky-400" style="--value:95;" role="progressbar"><span class=" text-lg text-black font-bold">95%</span>
-    <p>Experienced Coach</p>
-    <p>the game used to be of 70 minutes game consists of 60 minutes</p>
+      <!-- <div class="flex"> -->
+      <div class="flex justify-center text-center gap-20">
+        <div>
+          <div class="radial-progress rotate-90 text-red-500" style="--value:87;" role="progressbar"><span
+              class=" text-lg -rotate-90 text-black font-bold">87%</span>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold">Prayer Facility</p>
+            <p class="text-lg text-slate-400">The aim of the match is<br>goals in the opponent.</p>
+          </div>
+        </div>
+
+
+        <div>
+          <div class="radial-progress rotate-90 text-sky-400" style="--value:95;" role="progressbar"><span
+              class=" text-lg -rotate-90 text-black font-bold">95%</span></div>
+          <div>
+            <p class="text-xl font-bold">Experienced Coach</p>
+            <p class="text-lg text-slate-400">the game used to of 70 min<br>consists of 60 minutes</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="radial-progress rotate-90 text-orange-400" style="--value:90;" role="progressbar"><span
+              class=" text-lg -rotate-90 text-black font-bold">90%</span>
+          </div>
+          <div>
+            <p class="text-xl font-bold">Senior Player</p>
+            <p class="text-lg text-slate-400">It is an ancient game that is<br>played in India for years.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="radial-progress rotate-90 text-blue-500" style="--value:80;" role="progressbar"><span
+              class=" text-lg -rotate-90 text-black font-bold">80%</span>
+          </div>
+          <div>
+            <p class="text-xl font-bold">Training Ground</p>
+            <p class="text-lg text-slate-400"> The game of hockey starts<br>with the center of the rink. </p>
+          </div>
+          <!-- </div> -->
+        </div>
+    </section>
+    <!-- program section -->
+    <section class="my-24">
+      <div class="py-20">
+        <h3 class="text-4xl font-extrabold py-5 text-black text-center">Program Sections</h3>
+        <p class=" text-slate-400 text-center">To play hockey in a safe manner there are various gears and equipment
+          that<br>protect a player from the serious injury.</p>
+      </div>
+      <div class="flex gap-6">
+     <div class="bg-image">
+
+      </div>
+      <div class="content-1">
+        <h3 class="text-white text-2xl py-1 font-bold">Junior Program</h3>
+        <p class="text-white py-3">Designed for anyone interested in learning to code<br>or obtaining an entry-level
+          Unity role</p>
+        <button class="btn btn-error bg-[#FF4240] text-lg text-white">Register Now!</button>
+      </div>
+      <div class="bg-image1">
+
+      </div>
+      <div class="content-2">
+        <h3 class="text-white text-2xl py-1 font-bold">Teenager Program</h3>
+        <p class="text-white py-3">Take the multiple-choice quiz following each text<br>and you'll get the results
+          immediately</p>
+        <button class="btn btn-error bg-[#FF4240] text-lg text-white">Register Now!</button>
+      </div>
+      </div>
+      <div class="py-6">
+      <div class="bg-image2">
+
+      </div>
+      <div class="content-3">
+        <h3 class="text-white py-1 text-2xl font-bold">Professional Program</h3>
+        <p class="text-white py-3">Prepared by experienced English articles<br>brief and appropriate to your level of
+          proficiency.</p>
+        <button class="btn btn-error bg-[#FF4240] text-lg text-white">Register Now!</button>
+      </div>
     </div>
-    <div class="radial-progress text-orange-400" style="--value:90;" role="progressbar"><span class=" text-lg text-black font-bold">90%</span>
-    <p>Senior Player</p>
-    <p>It is an ancient game that is played in India for years.</p>
+    </section>
+    <!-- Our New Products -->
+    <section class="my-16">
+      <div class="py-12">
+        <h3 class="text-4xl font-extrabold py-5 text-black text-center">Our New Products</h3>
+        <p class=" text-slate-400 text-center">A product is the item offered for sale. A product<br>can be a service or an item.</p>
+      </div>
+      <div class="flex bg-red-300 rounded-lg border-dotted border-2 border-indigo-300 h-48 w-fit p-5 ">
+        <div>
+          <img src="Images/5.png" height="150px" width="150px" alt="">
+        </div>
+        <div class="py-4 px-6">
+        <div class="flex gap-3">
+          <div class="flex">
+            <img src="star.png" height="10px" width="22px" alt="">
+            <p class=" text-slate-400">5.0</p>
+          </div>
+          <div class="flex">
+            <img src="Frame (1).png" height="10px" width="22px" alt="">
+            <p class=" text-slate-400">20</p>
+          </div>
+          <div class="flex">
+            <img src="Frame (2).png" height="10px" width="22px" alt="">
+            <p class=" text-slate-400">200</p>
+          </div>
+        </div>
+      <div class="py-2">
+<h4 class="text-lg py-1 font-bold text-black">World Cup Flags Football</h4>
+<p class="text-slate-400 ">It can be physical or in virtual or cyber form.</p>
+      </div>
+<div class="flex gap-8">
+      <div>
+        <p><span class="text-red-600 font-bold">Price - $22.00</span></p>
+      </div>
+      <div class="flex gap-2">
+        <img src="Frame.jpg" alt="">
+        <p class="text-slate-400">Delivery Fee : Free</p>
+      </div>
+      </div>
     </div>
-    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span class=" text-lg text-black font-bold">80%</span>
-    <p>Training Ground</p>
-    <p> The game of hockey starts with a face-off in the center of the rink. </p>
     </div>
-  </div>
-</section>
-    </main>
-          <footer class="footer px-16 p-24 bg-black text-neutral-content">
-            <nav>
-              <header class="text-2xl font-bold text-slate-100">Get In Touch</header> 
-              <p class="text-base text-slate-400 py-4">Hockey is the national game of India.<br>Also, it is a popular game and an interesting<br>game that many countries play.</p>
-              <div class="flex gap-3">
-                <img src="Frame.png" alt="">
-                <p class="text-base text-slate-400">hockeys@support.com</p>
-              </div>
-              <div class="flex gap-3">
-                <img src="Frame (1).png" alt="">
-                <p class="text-base text-slate-400">(+62) 123-321-543</p>
-              </div>
-             
-            </nav>
-            <nav>
-              <header class="text-2xl font-bold text-slate-100">Company</header> 
-              <a class="text-base text-slate-400">About us</a>
-              <a class="text-base text-slate-400">Leadership</a>
-              <a class="text-base text-slate-400">Careers</a>
-              <a class="text-base text-slate-400">News & Article</a>
-              <a class="text-base text-slate-400">Legal Notice</a>
-            </nav> 
-            <nav>
-              <header class="text-2xl font-bold text-slate-100">Support</header> 
-              <a class="text-base text-slate-400">Help Center</a>
-              <a class="text-base text-slate-400">FAQ</a>
-              <a class="text-base text-slate-400">Ticket Support</a>
-              <a class="text-base text-slate-400">Contact Us</a>
-            </nav> 
-            <nav>
-              <header class="text-2xl font-bold text-slate-100">Services</header> 
-              <a class="text-base text-slate-400">Academy</a>
-              <a class="text-base text-slate-400">Group Lesson</a>
-              <a class="text-base text-slate-400">Private Lesson</a>
-              <a class="text-base text-slate-400">Hockeys for kids</a>
-              <a class="text-base text-slate-400">Hockeys for Adult</a>
-            </nav>
-          </footer>
+    </section>
+  </main>
+  <footer class="footer px-16 p-24 bg-black text-neutral-content">
+    <nav>
+      <header class="text-2xl font-bold text-slate-100">Get In Touch</header>
+      <p class="text-base text-slate-400 py-4">Hockey is the national game of India.<br>Also, it is a popular game and
+        an interesting<br>game that many countries play.</p>
+      <div class="flex gap-3">
+        <img src="Frame.png" alt="">
+        <p class="text-base text-slate-400">hockeys@support.com</p>
+      </div>
+      <div class="flex gap-3">
+        <img src="Frame (1).png" alt="">
+        <p class="text-base text-slate-400">(+62) 123-321-543</p>
+      </div>
+
+    </nav>
+    <nav>
+      <header class="text-2xl font-bold text-slate-100">Company</header>
+      <a class="text-base text-slate-400">About us</a>
+      <a class="text-base text-slate-400">Leadership</a>
+      <a class="text-base text-slate-400">Careers</a>
+      <a class="text-base text-slate-400">News & Article</a>
+      <a class="text-base text-slate-400">Legal Notice</a>
+    </nav>
+    <nav>
+      <header class="text-2xl font-bold text-slate-100">Support</header>
+      <a class="text-base text-slate-400">Help Center</a>
+      <a class="text-base text-slate-400">FAQ</a>
+      <a class="text-base text-slate-400">Ticket Support</a>
+      <a class="text-base text-slate-400">Contact Us</a>
+    </nav>
+    <nav>
+      <header class="text-2xl font-bold text-slate-100">Services</header>
+      <a class="text-base text-slate-400">Academy</a>
+      <a class="text-base text-slate-400">Group Lesson</a>
+      <a class="text-base text-slate-400">Private Lesson</a>
+      <a class="text-base text-slate-400">Hockeys for kids</a>
+      <a class="text-base text-slate-400">Hockeys for Adult</a>
+    </nav>
+  </footer>
 </body>
-</html>
 
+</html>
